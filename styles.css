@@ -1,0 +1,48 @@
+header {
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(219, 233, 20, 0.781);
+    ul{
+        display:flex;
+        flex-direction: row;
+        gap: 30px;
+
+    }
+}
+main{
+    background-color: rgb(2, 128, 160);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: auto;
+    text-align: center;
+    h2,h3{
+        border: 3px;
+        border-style: solid;
+        border-color: rgb(77, 247, 35);
+    }
+}
+.vehiculos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flota{
+    display: flex;
+    flex-direction: column;
+    justify-content: justify;
+    align-items: center;
+}
+.nosotros{
+    text-align: justify;
+    h2,h3{
+        text-align: center;
+    }
+}
+.comentarios{
+    text-align: justify;
+}
+li{
+    display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
